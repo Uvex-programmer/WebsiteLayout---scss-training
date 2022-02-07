@@ -98,7 +98,7 @@
   }
 
   &__heading {
-    font-size: 2.8rem;
+    font-size: 2rem;
     font-weight: 500;
     text-transform: uppercase;
     text-align: right;
@@ -117,8 +117,8 @@
     &--1 {
       background-image: linear-gradient(
         to right bottom,
-        rgba($color-secondary-light, 0.65),
-        rgba($color-secondary-dark, 0.65)
+        rgba($color-gray-light, 0.65),
+        rgba($color-gray-dark, 0.65)
       );
     }
 
@@ -133,7 +133,7 @@
     &--3 {
       background-image: linear-gradient(
         to right bottom,
-        rgba($color-tertiary-light, 0.65),
+        rgba($color-tertiary-light, 0.25),
         rgba($color-tertiary-dark, 0.65)
       );
     }
